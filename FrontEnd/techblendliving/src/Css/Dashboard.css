@@ -1,0 +1,93 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Change background color */
+}
+
+.maindiv {
+    display: flex;
+    height: 100vh;
+}
+
+.leftdash, .middledash {
+    margin: 1%;
+    border: 2px #e8e8e8 solid;
+    border-radius: 15px;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.leftdash {
+    width: 25%;
+    overflow: hidden; /* Prevent sidebar from overflowing */
+}
+
+.middledash {
+    width: 70%;
+    margin: 5px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #e8e8e8;
+    border-radius: 15px;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.middle form {
+    margin-top: 20px;
+}
+
+.middle label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.middle button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color:#002D62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.middle button:hover {
+    background-color: #0056b3;
+}
+
+.right .containerHost {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto; /* Center the container */
+    text-align: center;
+}
+
+
+.nxtbtn {
+    border-radius: 5px;
+    background-color: #002D62;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

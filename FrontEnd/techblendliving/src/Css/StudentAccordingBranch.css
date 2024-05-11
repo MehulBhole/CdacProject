@@ -1,0 +1,65 @@
+/* Add your existing CSS styles here */
+
+.maindiv {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    width: 20%;
+    padding: 20px;
+  }
+  .middletemp1{
+  margin: 1%;
+  border: 2px #e8e8e8 solid;
+  border-radius: 15px;
+  box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  }
+  .middletemp1{
+    width: 70%;
+    margin: 5px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #e8e8e8;
+    border-radius: 15px;
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+ 
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

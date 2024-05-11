@@ -1,0 +1,64 @@
+.profile-container {
+  min-height: 100vh;
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.card-header {
+  background-color: #002D62;
+  color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card-header h2 {
+  margin: 0;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.backbtn {
+  margin-bottom: 20px;
+}
+
+.user-data {
+  display: flex;
+}
+
+.user-details-column {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.user-details {
+  margin-bottom: 20px;
+}
+
+.user-details label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-details input {
+  width: calc(100% - 12px);
+  padding: 6px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.edit-buttons {
+  margin-top: 15px;
+}
+
+.edit-buttons button {
+  margin-right: 10px;
+}

@@ -1,0 +1,178 @@
+/* Default styles */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.mainbdy{
+  margin-bottom: 20px;
+  background-color: #F0F8FF;
+}
+.slice-1 {
+  height: 750px;
+  max-width: 100%;
+ 
+}
+.slice-2div{
+  display: flex;
+  padding: 40px;
+}
+.textdiv{
+  padding: 30px;
+}
+.swiper {
+  width: 100%;
+  height: 150px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+ 
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 250px;
+  height:100px;
+  object-fit: cover;
+}
+.team-img {
+  border-radius: 10px;
+  overflow: hidden;
+  /* border: 1px solid #000000; */
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.slice-2 {
+  height: 450px;
+  margin: auto;
+  max-width: 70%;
+  background-color: #7CB9E8;
+  border-radius: 70px;
+}
+
+.agents, .agents3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10rem;
+}
+
+.card-img-top {
+  transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.SearchPanel {
+  height: 200px;
+  width: auto;
+ 
+}
+
+.searchBox {
+  border-radius: 20px;
+  border: 2px solid #000;
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  height: 20px;
+}
+
+.searchBox::placeholder {
+  color: #999;
+}
+
+.searchbar-main:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.test-search {
+  border: 2px solid black;
+}
+
+.icn {
+  padding-right: 15px;
+}
+
+.responsive-img, .responsive-img1, .img-lol, .img-lol1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 20px; /* Adjust as needed */
+  border: 0px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.responsive-img:hover, .responsive-img1:hover, .img-lol:hover, .img-lol1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.button-card {
+  background-color: #002D62;
+  color: #002D62;
+}
+
+.font-for-head {
+  font-family: cursive;
+}
+
+.Main-cicle {
+  height: 180px;
+  
+  border-radius: 1000px;
+  width: 60%;
+  border: 2px solid #e8e8e8;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.hover-effect {
+  color: #444444;
+  transition: transform 0.3s ease-in-out;
+  font-weight: 300;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .agents, .agents3 {
+    padding-left: 2rem; /* Adjust as needed */
+  }
+  
+  .searchBox {
+    width: 100%;
+  }
+
+  .Main-cicle {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Adjust styles for even smaller screens */
+  .agents, .agents3 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem; /* Adjust as needed */
+  }
+}
